@@ -1,0 +1,27 @@
+{
+  "count": 9,
+  "total": 387.6,
+  "categories": [
+    "cartas",
+    "cooperativo",
+    "estratégia",
+    "família"
+  ],
+  "top3": [
+    {
+      "id": 9,
+      "name": "Spirit Island",
+      "price": 79
+    },
+    {
+      "id": 6,
+      "name": "Terraforming Mars",
+      "price": 69.9
+    },
+    {
+      "id": 3,
+      "name": "Ticket to Ride",
+      "price": 44.9
+    }
+  ]
+}
