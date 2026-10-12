@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo de jogos</title>
+  </head>
+  <body>
+    <main>
+      <h1>Catálogo de jogos</h1>
+
+      <div class="controls">
+        <input id="search" type="search" placeholder="Pesquisar por nome ou tag…" />
+        <select id="category" aria-label="Categoria"></select>
+        <button id="sort" type="button">Preço ↓</button>
+      </div>
+
+      <div class="columns">
+        <ul id="list"></ul>
+        <section id="detail"></section>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
